@@ -1,6 +1,8 @@
 import type { JSX } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+const assetRelativePath : string = import.meta.env.VITE_ASSETS_RELATIVE_PATH ?? '';
+
 const AssetCollection: React.FC<{
     parentLabel: string;
     label: string;
@@ -16,7 +18,7 @@ const AssetCollection: React.FC<{
             </h1>
             {assets
                 .map(({ label, file }) => {
-                    const filePath = '/assets' + file;
+                    const filePath = assetRelativePath + '/assets' + file;
                     let item: JSX.Element | null = null;
                     if (file.endsWith('.mp3')) {
                         // Embed mp3 player
