@@ -1,11 +1,10 @@
+import type { JSX } from 'react';
 import { useNavigate } from 'react-router-dom';
-
-const baseUrl = 'https://supnl.github.io/repositorio-bmaz';
 
 const AssetCollection: React.FC<{
     parentLabel: string;
     label: string;
-    assets: string[];
+    assets: { label: string; file: string }[];
 }> = ({ parentLabel, label, assets }) => {
     const navigate = useNavigate();
 
@@ -15,18 +14,25 @@ const AssetCollection: React.FC<{
             <h1>
                 {parentLabel} - {label}
             </h1>
-            {assets.map((file) => {
-                const filePath = baseUrl + '/assets' + file;
-                if (file.endsWith('.mp3')) {
-                    // Embed mp3 player
+            {assets
+                .map(({ label, file }) => {
+                    const filePath = '/assets' + file;
+                    let item: JSX.Element | null = null;
+                    if (file.endsWith('.mp3')) {
+                        // Embed mp3 player
+                        item = (
+                            <audio key={file} controls>
+                                <source src={filePath} type='audio/mp3' />
+                            </audio>
+                        );
+                    }
                     return (
-                        <audio key={file} controls>
-                            <source src={filePath} type='audio/mp3' />
-                        </audio>
+                        <div>
+                            <h4>{label}</h4>
+                            {item ?? 'Arquivo não identificado'}
+                        </div>
                     );
-                }
-                return null;
-            })}
+                })}
         </div>
     );
 };

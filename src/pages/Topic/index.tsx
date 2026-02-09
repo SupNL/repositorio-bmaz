@@ -14,13 +14,17 @@ const Topic: React.FC<{ label: string; name: string }> = ({ label, name }) => {
             <button onClick={() => navigate(-1)}>Voltar</button>
             <h1>{label}</h1>
             <ul>
-                {Object.entries(referencedTopic).map(([key, { label }]) => {
-                    return (
-                        <li key={key}>
-                            <a href={rootPath + `/${key}`}>{label}</a>
-                        </li>
-                    );
-                })}
+                {Object.entries(referencedTopic)
+                    .sort((a, b) => a[1].label.localeCompare(b[1].label))
+                    .map(([key, { label }]) => {
+                        return (
+                            <li key={key}>
+                                <h3>
+                                    <a href={rootPath + `/${key}`}>{label}</a>
+                                </h3>
+                            </li>
+                        );
+                    })}
             </ul>
         </div>
     );
