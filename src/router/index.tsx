@@ -18,6 +18,10 @@ const perTopicMap: Record<
             label: 'Believer',
             assets: [{ label: 'Áudio', file: 'believer.mp3' }],
         },
+        cold_hearted: {
+            label: 'Cold Hearted',
+            assets: [{ label: 'Áudio', file: 'cold_hearted.mp3' }],
+        },
         california: {
             label: 'California Dreams',
             assets: [{ label: 'Áudio', file: 'california.mp3' }],
