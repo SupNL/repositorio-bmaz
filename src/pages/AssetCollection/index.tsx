@@ -1,5 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 
+const baseUrl = 'https://supnl.github.io/repositorio-bmaz';
+
 const AssetCollection: React.FC<{
     parentLabel: string;
     label: string;
@@ -14,7 +16,7 @@ const AssetCollection: React.FC<{
                 {parentLabel} - {label}
             </h1>
             {assets.map((file) => {
-                const filePath = '/assets' + file;
+                const filePath = baseUrl + '/assets' + file;
                 if (file.endsWith('.mp3')) {
                     // Embed mp3 player
                     return (
