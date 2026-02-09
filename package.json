@@ -6,7 +6,7 @@
   "homepage": "https://supnl.github.io/repositorio-bmaz",
   "scripts": {
     "dev": "vite",
-    "build": "dotenvx run -f .env.prod -- tsc -b && vite build --outDir ./docs",
+    "build": "tsc -b && dotenvx run -f .env.prod -- vite build --outDir ./docs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
