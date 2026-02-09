@@ -14,7 +14,7 @@ const AssetCollection: React.FC<{
                 {parentLabel} - {label}
             </h1>
             {assets.map((file) => {
-                const filePath = '/src/assets' + file;
+                const filePath = '/assets' + file;
                 if (file.endsWith('.mp3')) {
                     // Embed mp3 player
                     return (
