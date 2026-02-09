@@ -50,14 +50,17 @@ Object.entries(perTopicMap).forEach(([parentKey, value]) => {
     });
 });
 
-const routes = createHashRouter([
-    {
-        path: '/',
-        element: <Home />,
-    },
-    ...mainTopicRoutes,
-    ...subTopicRoutes,
-]);
+const routes = createHashRouter(
+    [
+        {
+            path: '/',
+            element: <Home />,
+        },
+        ...mainTopicRoutes,
+        ...subTopicRoutes,
+    ],
+    {}
+);
 
 const Router = () => {
     return <RouterProvider router={routes} />;
