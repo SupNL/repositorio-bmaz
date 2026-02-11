@@ -47,16 +47,29 @@ const perTopicMap: Record<
         },
         stand_by_me: {
             label: 'Stand By Me',
-            assets: [
-                { label: 'Áudio', file: 'stand_by_me.mp3' },
-            ],
+            assets: [{ label: 'Áudio', file: 'stand_by_me.mp3' }],
         },
         industry_baby: {
             label: 'Industry Baby',
             assets: [
                 { label: 'Áudio', file: 'industry_baby.mp3' },
-                { label: 'Áudio (Percussão apenas)', file: 'industry_baby_perc.mp3' },
+                {
+                    label: 'Áudio (Percussão apenas)',
+                    file: 'industry_baby_perc.mp3',
+                },
             ],
+        },
+        cisne_branco: {
+            label: 'Cisne Branco',
+            assets: [{ label: 'Áudio', file: 'cisne_branco.mp3' }],
+        },
+        cancao_dos_bombeiros: {
+            label: 'Canção dos Bombeiros',
+            assets: [{ label: 'Áudio', file: 'cancao_dos_bombeiros.mp3' }],
+        },
+        viva_a_marinha: {
+            label: 'Viva a Marinha',
+            assets: [{ label: 'Áudio', file: 'viva_a_marinha.mp3' }],
         },
     },
 };
