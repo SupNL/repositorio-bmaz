@@ -1,9 +1,7 @@
-import { useNavigate } from 'react-router-dom';
 import { perTopicMap } from '../../router';
+import GoBackButton from '../../components/GoBackButton';
 
 const Topic: React.FC<{ label: string; name: string }> = ({ label, name }) => {
-    const navigate = useNavigate();
-
     const referencedTopic = perTopicMap[name];
     if (!referencedTopic) return <h1>Não encontrado</h1>;
 
@@ -11,7 +9,7 @@ const Topic: React.FC<{ label: string; name: string }> = ({ label, name }) => {
 
     return (
         <div>
-            <button onClick={() => navigate(-1)}>Voltar</button>
+            <GoBackButton />
             <h1>{label}</h1>
             <ul>
                 {Object.entries(referencedTopic)
