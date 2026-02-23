@@ -6,6 +6,7 @@ import AssetCollection from '../pages/AssetCollection';
 
 const mainTopics = [
     { label: 'BMAZ', key: 'bmaz' },
+    { label: 'BAMUC', key: 'bamuc' },
     // { label: 'BMAZ Combo', key: 'bmaz-combo' },
 ];
 
@@ -13,6 +14,12 @@ const perTopicMap: Record<
     string,
     Record<string, { label: string; assets: { label: string; file: string }[] }>
 > = {
+    bamuc: {
+        crazy_train: {
+            label: 'Crazy Train',
+            assets: [{ label: 'Áudio', file: 'crazy_train.mp3' }],
+        },
+    },
     bmaz: {
         believer: {
             label: 'Believer',
