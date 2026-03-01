@@ -1,10 +1,11 @@
 {
   "name": "bmaz-repositorio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "homepage": "https://supnl.github.io/repositorio-bmaz",
   "scripts": {
+    "sync-assets": "node scripts/syncAssets.js",
     "dev": "vite",
     "build": "tsc -b && dotenvx run -f .env.prod -- vite build --outDir ./docs",
     "lint": "eslint .",

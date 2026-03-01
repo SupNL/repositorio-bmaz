@@ -1,0 +1,293 @@
+{
+  "bamuc": {
+    "crazy_train": {
+      "label": "Crazy Train",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "crazy_train.mp3"
+        }
+      ]
+    },
+    "have_you_seen_the_rain": {
+      "label": "Have You Seen The Rain",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "have_you_seen_the_rain.mp3"
+        }
+      ]
+    },
+    "living_on_a_prayer": {
+      "label": "Livin' On A Prayer",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "living_on_a_prayer.mp3"
+        }
+      ]
+    },
+    "nosso_quadro": {
+      "label": "Nosso Quadro",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "nosso_quadro.mp3"
+        }
+      ]
+    }
+  },
+  "bmaz": {
+    "baroes_da_pisadinha": {
+      "label": "Barões da Pisadinha",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "baroes_da_pisadinha.mp3"
+        }
+      ]
+    },
+    "believer": {
+      "label": "Believer",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "believer.mp3"
+        }
+      ]
+    },
+    "california": {
+      "label": "California Dreams",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "california.mp3"
+        }
+      ]
+    },
+    "cancao_dos_bombeiros": {
+      "label": "Canção dos Bombeiros",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "cancao_dos_bombeiros.mp3"
+        }
+      ]
+    },
+    "cant_take_my_eyes_of_you": {
+      "label": "Can't take my eyes of you",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "cant_take_my_eyes_of_you.mp3"
+        }
+      ]
+    },
+    "cisne_branco": {
+      "label": "Cisne Branco",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "cisne_branco.mp3"
+        }
+      ]
+    },
+    "cold_hearted": {
+      "label": "Cold Hearted",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "cold_hearted.mp3"
+        }
+      ]
+    },
+    "galeon": {
+      "label": "Galeon",
+      "assets": [
+        {
+          "label": "Áudio completo",
+          "file": "galeon_banda.mp3"
+        },
+        {
+          "label": "Áudio (Percussão apenas)",
+          "file": "galeon_percussao.mp3"
+        },
+        {
+          "label": "Áudio (Sopro apenas)",
+          "file": "galeon_sopro.mp3"
+        }
+      ]
+    },
+    "gonna_fly_now": {
+      "label": "Gonna Fly Now",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "gonna_fly_now.mp3"
+        }
+      ]
+    },
+    "havana": {
+      "label": "Havana",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "havana.mp3"
+        }
+      ]
+    },
+    "industry_baby": {
+      "label": "Industry Baby",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "industry_baby.mp3"
+        },
+        {
+          "label": "Áudio (Percussão apenas)",
+          "file": "industry_baby_perc.mp3"
+        }
+      ]
+    },
+    "nosso_quadro": {
+      "label": "Nosso Quadro",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "nosso_quadro.mp3"
+        }
+      ]
+    },
+    "stand_by_me": {
+      "label": "Stand By Me",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "stand_by_me.mp3"
+        }
+      ]
+    },
+    "viva_a_marinha": {
+      "label": "Viva a Marinha",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "viva_a_marinha.mp3"
+        }
+      ]
+    },
+    "wanna_be": {
+      "label": "Wanna Be",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "wanna_be.mp3"
+        }
+      ]
+    }
+  },
+  "bmaz_combo": {
+    "a_casa": {
+      "label": "A Casa",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "a_casa.mp3"
+        }
+      ]
+    },
+    "buyo": {
+      "label": "Buyo",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "buyo.mp3"
+        }
+      ]
+    },
+    "camon": {
+      "label": "Camon",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "camon.mp3"
+        }
+      ]
+    },
+    "cantaloupe_island": {
+      "label": "Cantaloupe Island",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "cantaloupe_island.mp3"
+        }
+      ]
+    },
+    "fate_of_ophelia": {
+      "label": "The Fate of Ophelia",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "the_fate_of_ophelia.mp3"
+        }
+      ]
+    },
+    "havana": {
+      "label": "Havana",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "havana.mp3"
+        }
+      ]
+    },
+    "industry_baby": {
+      "label": "Industry Baby",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "industry_baby_combo.mp3"
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "aquecimento": {
+      "label": "Aquecimento",
+      "assets": [
+        {
+          "label": "01 - Afinação",
+          "file": "01_afinacao.mp3"
+        },
+        {
+          "label": "02 - Mínimas em Legato",
+          "file": "02_minimas_em_legato.mp3"
+        },
+        {
+          "label": "03 - Quartas",
+          "file": "03_quartas.mp3"
+        },
+        {
+          "label": "04 - Flexibilidade",
+          "file": "04_flexibilidade.mp3"
+        },
+        {
+          "label": "05 - Arpegios Estendidos",
+          "file": "05_arpegios_estendidos.mp3"
+        },
+        {
+          "label": "06 - Staccato",
+          "file": "06_staccato.mp3"
+        },
+        {
+          "label": "09 - Arpegios em duas oitavas",
+          "file": "09_arpegios_em_duas_oitavas.mp3"
+        },
+        {
+          "label": "10 - Estudos sobre Articulação",
+          "file": "10_estudos_sobre_articulacao.mp3"
+        }
+      ]
+    }
+  }
+}

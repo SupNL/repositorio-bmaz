@@ -3,83 +3,12 @@ import Home from '../pages/Home';
 import Topic from '../pages/Topic';
 import { RouterProvider, createHashRouter } from 'react-router-dom';
 import AssetCollection from '../pages/AssetCollection';
-
-const mainTopics = [
-    { label: 'BMAZ', key: 'bmaz' },
-    { label: 'BAMUC', key: 'bamuc' },
-    // { label: 'BMAZ Combo', key: 'bmaz-combo' },
-];
-
+import mainTopics from '../static/mainTopics.json';
+import nonTypedPerTopic from '../static/perTopicMap.json';
 const perTopicMap: Record<
     string,
     Record<string, { label: string; assets: { label: string; file: string }[] }>
-> = {
-    bamuc: {
-        crazy_train: {
-            label: 'Crazy Train',
-            assets: [{ label: 'Áudio', file: 'crazy_train.mp3' }],
-        },
-    },
-    bmaz: {
-        believer: {
-            label: 'Believer',
-            assets: [{ label: 'Áudio', file: 'believer.mp3' }],
-        },
-        cold_hearted: {
-            label: 'Cold Hearted',
-            assets: [{ label: 'Áudio', file: 'cold_hearted.mp3' }],
-        },
-        california: {
-            label: 'California Dreams',
-            assets: [{ label: 'Áudio', file: 'california.mp3' }],
-        },
-        galeon: {
-            label: 'Galeon',
-            assets: [
-                { label: 'Áudio completo', file: 'galeon_banda.mp3' },
-                {
-                    label: 'Áudio (Percussão apenas)',
-                    file: 'galeon_percussao.mp3',
-                },
-                { label: 'Áudio (Sopro apenas)', file: 'galeon_sopro.mp3' },
-            ],
-        },
-        gonna_fly_now: {
-            label: 'Gonna Fly Now',
-            assets: [{ label: 'Áudio', file: 'gonna_fly_now.mp3' }],
-        },
-        wanna_be: {
-            label: 'Wanna Be',
-            assets: [{ label: 'Áudio', file: 'wanna_be.mp3' }],
-        },
-        stand_by_me: {
-            label: 'Stand By Me',
-            assets: [{ label: 'Áudio', file: 'stand_by_me.mp3' }],
-        },
-        industry_baby: {
-            label: 'Industry Baby',
-            assets: [
-                { label: 'Áudio', file: 'industry_baby.mp3' },
-                {
-                    label: 'Áudio (Percussão apenas)',
-                    file: 'industry_baby_perc.mp3',
-                },
-            ],
-        },
-        cisne_branco: {
-            label: 'Cisne Branco',
-            assets: [{ label: 'Áudio', file: 'cisne_branco.mp3' }],
-        },
-        cancao_dos_bombeiros: {
-            label: 'Canção dos Bombeiros',
-            assets: [{ label: 'Áudio', file: 'cancao_dos_bombeiros.mp3' }],
-        },
-        viva_a_marinha: {
-            label: 'Viva a Marinha',
-            assets: [{ label: 'Áudio', file: 'viva_a_marinha.mp3' }],
-        },
-    },
-};
+> = nonTypedPerTopic;
 
 const mainTopicRoutes = mainTopics.map(({ label, key }) => ({
     path: `/${key}`,
