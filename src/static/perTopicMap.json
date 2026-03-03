@@ -27,6 +27,15 @@
         }
       ]
     },
+    "narco": {
+      "label": "Narco",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "narco.mp3"
+        }
+      ]
+    },
     "nosso_quadro": {
       "label": "Nosso Quadro",
       "assets": [
@@ -62,6 +71,15 @@
         {
           "label": "Áudio",
           "file": "california.mp3"
+        }
+      ]
+    },
+    "caminhando_com_maria": {
+      "label": "Caminhando com Maria",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "caminhando_com_maria.mp3"
         }
       ]
     },
@@ -101,6 +119,15 @@
         }
       ]
     },
+    "esporte_espetacular": {
+      "label": "Esporte Espetacular",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "esporte_espetacular.mpeg"
+        }
+      ]
+    },
     "galeon": {
       "label": "Galeon",
       "assets": [
@@ -136,6 +163,19 @@
         }
       ]
     },
+    "hinos": {
+      "label": "Hinos",
+      "assets": [
+        {
+          "label": "Hino Nacional Brasileiro",
+          "file": "hino_nacional_brasileiro.mp3"
+        },
+        {
+          "label": "Hino de Presidente Epitácio",
+          "file": "hino_presidente_epitacio.mp3"
+        }
+      ]
+    },
     "industry_baby": {
       "label": "Industry Baby",
       "assets": [
@@ -158,12 +198,30 @@
         }
       ]
     },
+    "oracao_pra_familia": {
+      "label": "Oração para a Família",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "oracao_pra_familia.mp3"
+        }
+      ]
+    },
     "stand_by_me": {
       "label": "Stand By Me",
       "assets": [
         {
           "label": "Áudio",
           "file": "stand_by_me.mp3"
+        }
+      ]
+    },
+    "temas_de_futebol": {
+      "label": "Temas de futebol",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "temas_de_futebol.mp3"
         }
       ]
     },
@@ -247,6 +305,33 @@
         {
           "label": "Áudio",
           "file": "industry_baby_combo.mp3"
+        }
+      ]
+    },
+    "locked_out_of_heaven": {
+      "label": "Locked out of Heaven",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "locked_out_of_heaven.mp3"
+        }
+      ]
+    },
+    "narco": {
+      "label": "Narco",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "narco.mp3"
+        }
+      ]
+    },
+    "pretty_woman": {
+      "label": "Pretty Woman",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "pretty_woman.mp3"
         }
       ]
     }

@@ -106,13 +106,13 @@ async function main() {
 
       // Song label – preserve old, else generate placeholder
       const oldSong = oldPerTopicMap[topicKey]?.[songKey];
-      const songLabel = oldSong?.label ?? 'LABEL PLACEHOLDER';
+      const songLabel = oldSong?.label ?? 'LABEL_PLACEHOLDER';
 
       const assets = [];
       for (const fileName of assetFiles) {
         // Asset label – preserve old if same file exists
         const oldAsset = oldSong?.assets?.find((a) => a.file === fileName);
-        const assetLabel = oldAsset?.label ?? 'LABEL PLACEHOLDER';
+        const assetLabel = oldAsset?.label ?? 'LABEL_PLACEHOLDER';
         assets.push({ label: assetLabel, file: fileName });
       }
 
