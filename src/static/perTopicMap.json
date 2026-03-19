@@ -1,4 +1,15 @@
 {
+  "bamate": {
+    "hino_teodoro_sampaio": {
+      "label": "Hino Municipal de Teodoro Sampaio",
+      "assets": [
+        {
+          "label": "Áudio",
+          "file": "hino_teodoro.mp3"
+        }
+      ]
+    }
+  },
   "bamuc": {
     "crazy_train": {
       "label": "Crazy Train",
@@ -163,15 +174,20 @@
         }
       ]
     },
-    "hinos": {
-      "label": "Hinos",
+    "hino_nacional_brasileiro": {
+      "label": "Hino Nacional Brasileiro",
       "assets": [
         {
-          "label": "Hino Nacional Brasileiro",
+          "label": "Áudio",
           "file": "hino_nacional_brasileiro.mp3"
-        },
+        }
+      ]
+    },
+    "hino_presidente_epitacio": {
+      "label": "Hino Municipal de Presidente Epitácio",
+      "assets": [
         {
-          "label": "Hino de Presidente Epitácio",
+          "label": "Áudio",
           "file": "hino_presidente_epitacio.mp3"
         }
       ]
