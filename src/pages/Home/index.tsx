@@ -11,7 +11,9 @@ const Home: React.FC = () => {
             <ul>
                 {mainTopics.map(({ label, key }) => (
                     <li key={key}>
-                        <a href={`#/${key}`}>{label}</a>
+                        <h1>
+                            <a href={`#/${key}`}>{label}</a>
+                        </h1>
                     </li>
                 ))}
             </ul>
