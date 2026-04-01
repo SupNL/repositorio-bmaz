@@ -1,0 +1,21 @@
+{
+    "nl": {
+        "hibike": {
+            "label": "Hibike! Euphonium",
+            "assets": [
+                {
+                    "label": "Sound! Euphonium",
+                    "file": "hibike_euphonium.mp3"
+                },
+                {
+                  "label": "Ai Wo Mitsuketa Basho",
+                  "file": "ai_wo_mitsuketa.mp3"
+              },
+              {
+                "label": "Solo - Hitotose no Uta",
+                "file": "hitotose_no_uta.mp3"
+            }
+            ]
+        }
+    }
+}

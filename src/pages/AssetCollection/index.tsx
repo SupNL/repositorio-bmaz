@@ -7,7 +7,9 @@ const AssetCollection: React.FC<{
     parentLabel: string;
     label: string;
     assets: { label: string; file: string }[];
-}> = ({ parentLabel, label, assets }) => {
+    overrideFolder?: string;
+}> = ({ parentLabel, label, assets, overrideFolder }) => {
+    const folder = overrideFolder ?? '/assets';
     return (
         <div>
             <GoBackButton />
@@ -16,7 +18,7 @@ const AssetCollection: React.FC<{
             </h1>
             {assets
                 .map(({ label, file }) => {
-                    const filePath = assetRelativePath + '/assets' + file;
+                    const filePath = assetRelativePath + folder + file;
                     let item: JSX.Element | null = null;
                     if (file.endsWith('.mp3')) {
                         // Embed mp3 player
