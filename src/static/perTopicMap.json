@@ -80,6 +80,10 @@
       "label": "Berimbau",
       "assets": [
         {
+          "label": "Áudio Digital - percussão improvisada (revisar)",
+          "file": "berimbau-digital.mp3"
+        },
+        {
           "label": "Áudio Digital - apenas sopro",
           "file": "berimbau-sopro.mp3"
         },
