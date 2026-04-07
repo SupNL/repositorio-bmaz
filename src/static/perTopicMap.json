@@ -76,6 +76,27 @@
         }
       ]
     },
+    "berimbau": {
+      "label": "Berimbau",
+      "assets": [
+        {
+          "label": "Áudio Digital - apenas sopro",
+          "file": "berimbau-sopro.mp3"
+        },
+        {
+          "label": "Áudio Digital - Trombone 1",
+          "file": "berimbau-trombone1.mp3"
+        },
+        {
+          "label": "Áudio Digital - Trombone 2",
+          "file": "berimbau-trombone2.mp3"
+        },
+        {
+          "label": "Áudio",
+          "file": "berimbau.mp3"
+        }
+      ]
+    },
     "california": {
       "label": "California Dreams",
       "assets": [
