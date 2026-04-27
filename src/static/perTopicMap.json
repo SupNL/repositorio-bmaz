@@ -230,6 +230,15 @@
         }
       ]
     },
+    "marvel_the_avengers": {
+      "label": "Marvel's - The Avengers",
+      "assets": [
+        {
+          "label": "Áudio Digital",
+          "file": "avengers.mp3"
+        }
+      ]
+    },
     "nosso_quadro": {
       "label": "Nosso Quadro",
       "assets": [
