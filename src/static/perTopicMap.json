@@ -386,6 +386,49 @@
       ]
     }
   },
+  "brass_concert": {
+    "cheia_de_mania": {
+      "label": "Cheia de Mania",
+      "assets": [
+        {
+          "label": "Áudio Digital",
+          "file": "cheia_de_mania.mp3"
+        },
+        {
+          "label": "Trompete 1 (Digital)",
+          "file": "cheia_de_mania-tpt1.mp3"
+        },
+        {
+          "label": "Trompete 2 (Digital)",
+          "file": "cheia_de_mania-tpt2.mp3"
+        },
+        {
+          "label": "Eufônio 1 (Digital)",
+          "file": "cheia_de_mania-euph1.mp3"
+        },
+        {
+          "label": "Eufônio 2 (Digital)",
+          "file": "cheia_de_mania-euph2.mp3"
+        },
+        {
+          "label": "Trombone 1 (Digital)",
+          "file": "cheia_de_mania-tmb1.mp3"
+        },
+        {
+          "label": "Trombone 2 (Digital)",
+          "file": "cheia_de_mania-tmb2.mp3"
+        },
+        {
+          "label": "Trombone 3 (Digital)",
+          "file": "cheia_de_mania-tmb3.mp3"
+        },
+        {
+          "label": "Tuba (Digital)",
+          "file": "cheia_de_mania-tuba.mp3"
+        }
+      ]
+    }
+  },
   "recursos": {
     "aquecimento": {
       "label": "Aquecimento",
