@@ -14,6 +14,9 @@ dependencies:
   react-dom:
     specifier: ^19.2.0
     version: 19.2.4(react@19.2.4)
+  react-h5-audio-player:
+    specifier: ^3.10.2
+    version: 3.10.2(react-dom@19.2.4)(react@19.2.4)
   react-router-dom:
     specifier: ^7.13.0
     version: 7.13.0(react-dom@19.2.4)(react@19.2.4)
@@ -201,6 +204,11 @@ packages:
       '@babel/core': 7.29.0
       '@babel/helper-plugin-utils': 7.28.6
     dev: true
+
+  /@babel/runtime@7.29.7:
+    resolution: {integrity: sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==}
+    engines: {node: '>=6.9.0'}
+    dev: false
 
   /@babel/template@7.28.6:
     resolution: {integrity: sha512-YA6Ma2KsCdGb+WC6UpBVFJGXL58MDA6oyONbjyF/+5sBgxY/dwkhLogbMT2GXXyU84/IhRw/2D1Os1B/giz+BQ==}
@@ -589,6 +597,19 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
     dev: true
+
+  /@iconify/react@5.2.1(react@19.2.4):
+    resolution: {integrity: sha512-37GDR3fYDZmnmUn9RagyaX+zca24jfVOMY8E1IXTqJuE8pxNtN51KWPQe3VODOWvuUurq7q9uUu3CFrpqj5Iqg==}
+    peerDependencies:
+      react: '>=16'
+    dependencies:
+      '@iconify/types': 2.0.0
+      react: 19.2.4
+    dev: false
+
+  /@iconify/types@2.0.0:
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
+    dev: false
 
   /@jridgewell/gen-mapping@0.3.13:
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
@@ -1751,6 +1772,19 @@ packages:
     dependencies:
       react: 19.2.4
       scheduler: 0.27.0
+    dev: false
+
+  /react-h5-audio-player@3.10.2(react-dom@19.2.4)(react@19.2.4):
+    resolution: {integrity: sha512-2RlP1eF9V0KPZgBzaYM/hwIE1KxKV+E84gOkpaf0+3X1r56USO+V7AuCVa2FSTeWkQnrB03Osay99hR9FbSefQ==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      react: ^16.3.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.3.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    dependencies:
+      '@babel/runtime': 7.29.7
+      '@iconify/react': 5.2.1(react@19.2.4)
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
     dev: false
 
   /react-refresh@0.18.0:
